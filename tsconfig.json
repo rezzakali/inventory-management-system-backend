@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./dist", // Ensure this is set to your desired output directory
+    "outDir": "src/dist", // Ensure this is set to your desired output directory
     "rootDir": "./src", // Ensure your TypeScript source files are in the `src` folder
     "esModuleInterop": true,
     "moduleResolution": "node",
