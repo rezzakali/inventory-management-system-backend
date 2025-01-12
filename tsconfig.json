@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "outDir": "src/dist", // Ensure this is set to your desired output directory
-    "rootDir": "./src", // Ensure your TypeScript source files are in the `src` folder
+    "outDir": "./dist",
+    "rootDir": "./",
     "esModuleInterop": true,
     "moduleResolution": "node",
     "target": "ES6",
     "module": "CommonJS"
   },
-  "include": ["src/**/*.ts"],
+  "include": ["index.ts"],
   "exclude": ["node_modules"]
 }
