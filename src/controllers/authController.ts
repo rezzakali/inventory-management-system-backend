@@ -87,6 +87,7 @@ export const signinController = asyncHandler(
       maxAge: COOKIE_EXPIRATION, // Cookie expiry in milliseconds (30d)
     });
 
+    // return response
     res.status(HTTPSTATUS.OK).json({
       success: true,
       message: 'Welcome back to your account.',
